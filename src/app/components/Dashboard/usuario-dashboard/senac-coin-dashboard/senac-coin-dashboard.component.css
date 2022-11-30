@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.card {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 2px 23px #26395338;
+    width: 400px;
+}
+.mediaCard{
+    background: url(https://th.bing.com/th/id/R.50c3db6a7cc2b24a5163a9224e883aab?rik=zzigPLf2AvbSLQ&pid=ImgRaw&r=0) center/cover;
+    height: 300px;
+    width: 100%;
+}
+.title{
+    color: #2b3d59;
+}
+
+.secondText{
+    color: #828fa1;
+}
+.topCard{
+    padding: 20px;
+    padding-top: 0px;
+}
+.bottonCard{
+    padding: 20px;
+}
+.actions{
+    background: none;
+    border: none;
+    color: blue;
+    cursor: pointer;
+}
